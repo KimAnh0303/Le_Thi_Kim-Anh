@@ -3,7 +3,7 @@
     margin-top: 5rem;
 }
 
-.content__module--left--h2 {
+.content__heading--left-h2 {
     font-size: 2.25rem;
     font-weight: bold;
     width: 26.75rem;
@@ -12,15 +12,30 @@
     letter-spacing: 0.018rem;
 }
 
-.content__module--left--h3 {
+.content__heading--left-h3 {
     font-size: 1.5rem;
-    width: 17.063rem;
-    height: 2.063rem;
     margin: 0 0 7px;
     font-weight: 600;
 }
 
-.content__module--primary-title {
+.border--on-top {
+    position: relative;
+}
+
+.border--on-top:after {
+    padding: 0;
+    margin: 0;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 0.2rem;
+    background-color: rgb(255, 7, 7);
+    position: absolute;
+    right: 11.625rem;
+    top: 0.438rem;
+}
+
+.content__heading--primary-title {
     text-align: left;
     color: #1f2c40;
     font-family: Poppins;
@@ -30,18 +45,17 @@
     letter-spacing: -0.009;
 }
 
-.content__module--right {
+.content__heading--right {
     display: flex;
     flex-wrap: wrap;
 }
 
-.content__module--right-column {
-    margin: 1rem;
+.content__heading--right-column {
+    margin: 2rem;
+    flex: 300px;
 }
 
-.content__module--primary-paragraphs {
-    width: 17.063rem;
-    height: 18.425rem;
+.content__heading--primary-paragraphs {
     font-family: Poppins;
     font-size: 1.125rem;
     font-weight: 300;
