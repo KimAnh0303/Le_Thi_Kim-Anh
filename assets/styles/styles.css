@@ -6,7 +6,7 @@
 .content__heading--left-h2 {
     font-size: 2.25rem;
     font-weight: bold;
-    width: 26.75rem;
+    width: 23.75rem;
     height: 13.375rem;
     margin: 1.813rem 5.344rem 8.375rem 9.094rem;
     letter-spacing: 0.018rem;
@@ -27,11 +27,11 @@
     margin: 0;
     display: block;
     content: "";
-    width: 50%;
-    height: 0.2rem;
+    width: 36%;
+    height: 0.1rem;
     background-color: rgb(255, 7, 7);
     position: absolute;
-    right: 11.625rem;
+    right: 15rem;
     top: 0.438rem;
 }
 
